@@ -49,4 +49,6 @@ print(F)
 G = ["Nima",1,(2,3.4)]
 H = G[:]
 print(H)
-help(H)
+print(type(A))
+
+
