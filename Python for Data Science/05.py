@@ -38,3 +38,4 @@ Album6 = Album1.intersection(Album4)
 print(Album6)
 
 print("Thriller" in Album2)
+print(Album5 in Album1)
