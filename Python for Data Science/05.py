@@ -28,7 +28,13 @@ Album3 = Album1 & Album2
 print(Album3)
 #combine all the elements of two sets
 Album4 = Album1.union(Album2)
-print(Album4)
+print("Album4 is:", Album4)
 #to check if a set is a subset of other set
 print(Album3.issubset(Album4))
 
+Album5 = Album4.difference(Album1)
+print(Album5)
+Album6 = Album1.intersection(Album4)
+print(Album6)
+
+print("Thriller" in Album2)
