@@ -30,3 +30,17 @@ if(album__year > 1979) and (album__year < 1990):
     print("The album was made in the 80's")
 else:
     print("The album was made in another decade")
+
+x="Go"
+
+if(x=="Go"):
+
+  print('Go ')
+
+else:
+
+  print('Stop')
+
+print('Mike')
+
+
