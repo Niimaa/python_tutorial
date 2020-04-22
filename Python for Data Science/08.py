@@ -60,3 +60,43 @@ def ArtistNames (*names):
     for name in names:
         print(name)
 ArtistNames("Michael","Andy")
+
+#make a global variable
+
+artist = "Michael Jackson"
+
+def printer(artist):
+    global internal_var
+    internal_var= "Whitney Houston"
+    print(artist,"is an artist")
+
+printer(artist)
+printer(internal_var)
+
+
+def step(x):
+    if x>0:
+        y=1
+    else:
+        y=0
+    return y
+
+
+def add(x):
+    return (x + x)
+
+
+y = add('1')
+print(y)
+
+def hello():
+    print("hello")
+
+hello()
+
+a=1
+
+def do(x):
+    return(x+a)
+
+print(do(1))
