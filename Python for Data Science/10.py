@@ -53,7 +53,7 @@ with open("Example1.txt","r") as file1:
     print(file_stuff)
     file_stuff=file1.readline(5)
     print(file_stuff)
-    
+
 with open("Example1.txt", "r") as File1:
     file_stuff = File1.readline()
 
