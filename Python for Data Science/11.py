@@ -14,3 +14,7 @@ with open("Example1.txt","r") as readfile:
     with open("Example3.txt","w") as writefile:
         for line in readfile:
             writefile.write(line)
+
+# with open("Example3.txt", "w") as file1:
+#
+#     file1.write("This is line C\n")
