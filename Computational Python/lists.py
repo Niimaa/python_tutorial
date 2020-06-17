@@ -15,7 +15,7 @@ new_months = ['aug','sep','nov']
 months.insert(5,new_months)
 print(months)
 #list methods - extend
-months = ['Jan', 'Feb', 'Marc', 'Apr', 'jun']
+months = ['Jan', 'Feb', 'Mar', 'Apr', 'jun']
 months.extend(new_months)
 print(months)
 #list methods - remove
@@ -46,4 +46,19 @@ print(months.index('aug'))
 print(months)
 print('jun' in months)
 print('Nov' in months)
-
+#loop through the list
+for month in months:
+    print(month)
+#print the index
+for index, month in enumerate(months):
+    print(index, month)
+#start from particular index
+for index, month in enumerate(months, start=2):
+    print(index, month)
+#join to convert list into string
+print(months)
+months_str = ', '.join(months)
+print(months_str)
+#convert string to list
+months_list = months_str.split(', ')
+print(months_list)
