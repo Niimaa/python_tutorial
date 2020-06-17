@@ -27,3 +27,23 @@ print(months)
 #list methods - Reverse
 months.reverse()
 print(months)
+#list methods - Sort
+months.sort()
+print(months)
+months_numbers = [1,3,5,4,2,7,6]
+months_numbers.sort()
+print(months_numbers)
+months_numbers.sort(reverse=True)
+print(months_numbers)
+sorted_months = sorted(months_numbers)
+print(months_numbers)
+print(sorted_months)
+#list method - min, max, sum
+print(min(months_numbers))
+print(max(months_numbers))
+print(sum(months_numbers))
+print(months.index('aug'))
+print(months)
+print('jun' in months)
+print('Nov' in months)
+
