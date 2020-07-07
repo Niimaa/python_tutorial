@@ -1,11 +1,11 @@
-character,popularity,score1,score2
-spiderman,1st,34,34
-spiderman,2nd,54,54
-superman,3rd,23,23
-superman,4th,52,52
-batman,5th,76,76
-batman,6th,60,60
-tom,7th,57,57
-tom,8th,46,46
-jerry,9th,59,59
-jerry,10th,47,47
+character popularity score1 score2
+spiderman 1st 34 34
+spiderman 2nd 54 54
+superman 3rd 23 23
+superman 4th 52 52
+batman 5th 76 76
+batman 6th 60 60
+tom 7th 57 57
+tom 8th 46 46
+jerry 9th 59 59
+jerry 10th 47 47
