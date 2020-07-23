@@ -12,7 +12,7 @@ print(dataframe2)
 #convert into list
 dataframe2 = list(dataframe1.groupby(['character']))
 print(dataframe2)
-#convert into ictionary
+#convert into dictionary
 dict1 = dict(list(dataframe1.groupby(['character'])))
 print(dict1)
 #based on indexing do the filter
@@ -20,3 +20,4 @@ dict2 = dict1['jerry']
 print(dict2)
 dataframe3 = dataframe1.groupby(['character']).describe()
 print(dataframe3)
+
