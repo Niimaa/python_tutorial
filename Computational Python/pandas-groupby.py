@@ -21,3 +21,7 @@ print(dict2)
 dataframe3 = dataframe1.groupby(['character']).describe()
 print(dataframe3)
 
+#it can be max, min, std, mean, etc
+dataframe4 = dataframe1.groupby(['character']).max()
+print(dataframe4)
+
