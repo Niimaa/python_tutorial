@@ -28,5 +28,6 @@ print(dataframe6)
 x = lambda a: a+5
 print(x(2))
 
+
 dataframe7 = dataframe1[dataframe1['character'].map(lambda superhero:'batman' in superhero)]
 print(dataframe7)
